@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        a{
+            color: #ffffff;
+            background-color: black;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: url('dark.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            color:white;
+            font-size: 60px;
+        }
+        h2{
+             color:white;
+             font-size: 40px;
+            margin-bottom: 20px;
+        }
+      
+        p{
+            color: white;
+            font-size: 30px;
+        }
+        .css{
+            margin-top: 100px;
+            margin-bottom: 80px;
+        }
+        table{
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            border-color: white;
+        }
+        
+        #two 
+        {
+            text-align: left;
+            margin-top: 100px;
+            margin-bottom: 80px;
+        }
+        ul{
+            color: white;
+            font-size: 20px;
+        }
+    
+        .center {
+    text-align: center;
+}
+  section {
+    display: none;
+    height: 60vh;
+    margin: 50px auto;
+    margin-top: auto;
+    max-width: 800px;
+    text-align: left;
+  }
+
+   
+  section:target {
+    display: block;
+  }
+
+  section:first-of-type:not(:target) {
+    display: block;
+  }
+  button{
+    gap: 20px;
+  }
+    
+
+    </style>
+</head>
+<body class="center">
+    
+    <h1 id="top">Cascading Style Sheets [CSS]</h1>
+    <p><b><u>Cascading Style Sheets</u></b> is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+<section class="box">
+<a href="#one"><button style="background-color:rgb(28, 26, 26); color:white; padding:60px; border-radius:10px;">CSS PROPERTIES</button></a>
+<a href="#two"><button style="background-color:rgb(28, 26, 26); color:white; padding:60px; border-radius:10px;">CSS WEB SAFE FONTS</button></a>
+<a href="#three"><button style="background-color:rgb(28, 26, 26); color:white; padding:60px; border-radius:10px;">CSS SELECTORS</button></a>
+
+<br>
+</section>
+<section class="css" id="one">
+    <h2>CSS PROPERTIES</h2>
+    <table border="1" >
+        <tr>
+            <td>accent-color</td>
+            <td>Specifies an accent color for user-interface controls</td>
+        </tr>
+        <tr>
+            <td>align-content</td>
+            <td>Aligns a flex container's lines within the flex container when there is extra space on the cross-axis</td>  
+            </tr>
+        <tr>
+            <td>align-items</td>
+            <td>Aligns flex items of the current flex line within the flex container</td>
+        </tr>
+        <tr>
+            <td>align-self</td>
+            <td>Allows the default alignment (or the one specified by align-items) to be overridden for individual flex items</td>     
+            </tr>
+        <tr>
+            <tr>
+                <td>background-color</td>
+                <td>Sets the background color of an element</td>    
+
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>Sets the border around an element</td>  
+        
+            </tr>
+            <tr>
+                <td>border-radius</td>
+                <td>Defines the radius of the element's corners</td>    
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>Specifies the display behavior (the type of rendering box) of an element</td>
+                </tr>
+    </table>
+    <a href="#top">Back to top</a>
+</section>
+<section id="two">
+    <h2>CSS WEB SAFE FONTS</h2>
+    <p>Web-safe fonts are fonts that are likely to be installed on a wide variety of computer systems and devices.<br>
+
+</p>    
+    <ul type="circle">
+    <li>Arial (sans-serif)</li>
+    <li>Verdana (sans-serif)</li>
+    <li>Tahoma (sans-serif)</li>
+    <li>Trebuchet MS (sans-serif)</li>
+    <li>Times New Roman (serif)</li>
+    <li>Georgia (serif)</li>
+    <li>Garamond (serif)</li>
+    <li>Courier New (monospace)</li>
+    <li>Brush Script MT (cursive)</li>
+</ul>
+<a href="#top">Back to top</a>
+</section>
+
+<section id="three">
+    <h1>CSS SELECTORS</h1>
+    <table border="1">
+        <thead>
+        <tr>
+        <th>SELECTOR</th>
+        <th>EXAMPLE</th>
+        <th>EXAMPLE DESCRIPTION</th>
+        </tr>
+        </thead>
+        <tr>
+        <td>element</td>
+        <td>p</td>
+        <td>Selects all para tag elements</td>
+        </tr>
+        <tr>
+        <td>#id</td>
+        <td>#firstname</td>
+        <td>Selects the element with id="firstname"</td>
+        </tr>
+        <tr>
+        <td>.class</td>
+        <td>.intro
+p.intro</td>
+        <td>Selects all elements with class="intro"
+Selects all para elements with class="intro"</td>
+        </tr>
+        <tr>
+        <td>*</td>
+        <td>*</td>
+        <td>Selects all elements</td>
+        </tr>
+
+    </table>
+    <a href="#top">Back to top</a>
+    </section>
+</body>
+</center>
+
+</html>
