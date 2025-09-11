@@ -87,7 +87,7 @@ table a:hover{
 }
 p{
     font-size: 20px;
-     margin: 4% auto;
+     margin: 2% auto;
      text-align:justify;
 }
 section img {
@@ -96,4 +96,5 @@ section img {
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
       }
+
 
