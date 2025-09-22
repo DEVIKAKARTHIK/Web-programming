@@ -1,6 +1,10 @@
     function string()
     {
     let a1=document.getElementById("s").value;
+     if(a1=="") {
+        alert('enter something with letter a');
+        return;
+    }
     let a2=a1.length;
     document.getElementById("a").value=a2;
     let b2=a1.substring(2,4);
@@ -21,4 +25,5 @@
     document.getElementById("i").value=i2;
      let j2=a1.lastIndexOf("a");
     document.getElementById("j").value=j2;
+
     }
