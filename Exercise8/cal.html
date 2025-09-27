@@ -15,18 +15,10 @@
    <script>
     function generateCalendar(){
     year=document.getElementById("yearInput").value;
-    month=document.getElementById("monthInput").value;
+    month=document.getElementById("monthInput").value-1;
     
       if (year === "" || month === "") {
         alert("Please enter both year and month!");
-        return;
-      }
-
-      year = parseInt(year);
-      month = parseInt(month) - 1; 
-
-      if (month < 0 || month > 11) {
-        alert("Month must be between 1 and 12!");
         return;
       }
     let c = new Date(year,month); 
@@ -48,4 +40,5 @@
     document.getElementById("abc").innerHTML=d;
 }
     </script>
+
 </html>
