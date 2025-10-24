@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            border: 5px solid green;
+            height: 500px;
+            padding: 2rem;
+        }
+        .btn {
+            padding: 5px 10px;
+            color: #000;
+            border-radius: 0.5rem;
+        }
+        input[type="textbox"]{
+            border-radius: 23px;
+        }
+        #para {
+            color: red;
+        }
+
+        </style>
+</head>
+<body>
+    <form name="myForm" >
+        <div class="form"> Name:
+             <input type="text" id="abc" required>
+             <p id="para"></p>
+            <button class="btn" onclick="myfunction()">click me</button> 
+             <!-- <input type="submit" value="click here" onsubmit="myfunction()"> -->
+        </div>
+    </form>
+    <script>
+        function myfunction()
+        {
+            let x=document.forms["myForm"]["abc"].value;
+            if(x==="")
+            {
+                let x = "Name cannot be empty"
+                //alert(x);
+                document.getElementById("para").innerHTML = x;
+            }
+            if(!isNaN(x))
+            {
+                alert("invalid");
+            }
+        }
+    </script>
+</body>
+</html>
