@@ -50,13 +50,14 @@
        </tr>
       <tr>
         <td>Total marks:</td>
-        <td><?php $total = $_POST['englishmark']+$_POST['csmark']+$_POST['englishmark']+$_POST['mathsmark'];
+        <td><?php $total = $_POST['csmark']+$_POST['englishmark']+$_POST['mathsmark']+$_POST['webmark'];
          echo $total;?></td>
      </tr>
          
     </table>
 </body>
 </html>
+
 
 
 
