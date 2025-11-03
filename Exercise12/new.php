@@ -20,7 +20,7 @@
     </style>
 </head>
 <body >
-    <h1>mark list</h1>
+    <h1>Mark list</h1>
     <table border='1'>
         <tr><th colspan="2">Series Test1</th></tr>
         <tr>
@@ -57,7 +57,6 @@
     </table>
 </body>
 </html>
-
 
 
 
