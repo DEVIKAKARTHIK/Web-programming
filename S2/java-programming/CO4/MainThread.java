@@ -30,6 +30,9 @@ class Prime extends Thread{
         }
     }
 }
-public class Main {
-    
+public class MainThread {
+    Mutiple m=new Multiple();
+    Prime p=new Prime(20);
+    m.start();
+    p.start();
 }
